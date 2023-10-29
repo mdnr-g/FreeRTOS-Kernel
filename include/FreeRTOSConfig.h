@@ -47,7 +47,8 @@
 #endif
 
 #define configUSE_PREEMPTION			1
-#define configUSE_IDLE_HOOK				0
+#define configUSE_IDLE_HOOK				1
+#define portCRITICAL_NESTING_IN_TCB     1
 #define configUSE_TICK_HOOK				0
 #define configCPU_CLOCK_HZ				( 168000000 )
 #define configTICK_RATE_HZ				( ( TickType_t ) 1000 )
